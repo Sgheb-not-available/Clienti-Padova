@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="utf-8" />
-  <title>Mappa Clienti Padova (Dati Esterni)</title>
+  <title>Mappa Clienti Padova</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     body {
@@ -50,51 +50,6 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    const map = L.map('map').setView([45.406, 11.88], 12);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-
-    fetch('clienti_padova.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Impossibile caricare clienti_padova.json');
-        }
-        return response.json();
-      })
-      .then(data => {
-        data.forEach((cliente, index) => {
-          const lat = cliente.LatLng[0];
-          const lon = cliente.LatLng[1];
-
-          
-          const marker = L.marker([lat, lon])
-            .addTo(map)
-            .bindPopup(`
-              <strong>${cliente.Nome}</strong><br>
-              Indirizzo: ${cliente.Indirizzo}
-            `);
-
-          
-          const li = document.createElement('li');
-          li.textContent = cliente.Nome;
-          li.dataset.lat = lat;
-          li.dataset.lon = lon;
-          li.addEventListener('click', () => {
-            map.flyTo([lat, lon]);
-            marker.openPopup();
-          });
-          document.getElementById('company-list').appendChild(li);
-        });
-      })
-      .catch(err => {
-        console.error('Errore nel caricamento dei dati JSON:', err);
-        alert('Errore nel caricamento dei dati. Controlla che il file clienti_padova.json sia nella stessa cartella e che il server funzioni.');
-      });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
-
-<!--https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/set_up_a_local_testing_server-->
