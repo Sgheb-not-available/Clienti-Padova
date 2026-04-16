@@ -1,0 +1,77 @@
+[
+  {
+    "Nome": "Astra Verniciature Industriali s.r.l. - Sede Legale",
+    "Indirizzo": "Via Terza Strada, 9, Padova",
+    "LatLng": [45.204552, 11.895612] 
+  },
+  {
+    "Nome": "Astra Verniciature Industriali s.r.l. - Stab. 1 sede Padova",
+    "Indirizzo": "Via Svizzera, 22, Padova",
+    "LatLng": [45.204552, 11.895612]  
+  },
+  {
+    "Nome": "Astra Verniciature Industriali s.r.l. - Stab. 2 sede Brugine",
+    "Indirizzo": "Viale dell'Industria, 3/a",
+    "LatLng": [45.309257, 11.994308]  
+  },
+  {
+    "Nome": "Kronos Carpenteria s.r.l. - Sede Legale/Stab. 1 Carpenteria Padova",
+    "Indirizzo": "Viale dell'Industria, 49, Padova",
+    "LatLng": [45.411086, 11.923158] 
+  },
+  {
+    "Nome": "Kronos Carpenteria s.r.l. - Stab. 2 sede Verniciatura Padova",
+    "Indirizzo": "Via Emilia-Romagna, 18",
+    "LatLng": [45.37854, 11.962014] 
+  },
+  {
+    "Nome": "Kronos Carpenteria s.r.l. - Stab. 3 sede Verniciatura Cantarana di Cona",
+    "Indirizzo": "Via Valletta, 18",
+    "LatLng": [45.197401, 12.094383]  
+  },
+  {
+    "Nome": "Verniciatura Colognola ai colli s.r.l. - Sede Legale (Operativa)",
+    "Indirizzo": "Via Strà, 17, Colognola ai Colli",
+    "LatLng": [45.413919, 11.190204]  
+  },
+  {
+    "Nome": "R.F. Technology s.r.l. - Sede Legale ",
+    "Indirizzo": "Via Botte, 30, Campodarsego",
+    "LatLng": [45.473305, 11.926683]  
+  },
+  {
+    "Nome": "R.F. Technology s.r.l. - Sede Operativa Carpenteria",
+    "Indirizzo": "Viale dell'Industria, 49, Padova",
+    "LatLng": [45.411086, 11.923158]  
+  },
+  {
+    "Nome": "Tecnicolor s.r.l. - Sede Legale (Operativa)",
+    "Indirizzo": "Via Irpinia, 67, Saonara",
+    "LatLng": [45.378963, 11.966948]  
+  },
+  {
+    "Nome": "Gea Holding s.r.l. Sede Legale (Operativa)",
+    "Indirizzo": "Viale dell’industria, 49, Padova",
+    "LatLng": [45.411086, 11.923158]  
+  },
+  {
+    "Nome": "Sc Atom Società Cooperativa - Sede Legale (Operativa)",
+    "Indirizzo": "Via Lussemburgo, 28, Padova",
+    "LatLng": [45.397437, 11.951129]  
+  },
+  {
+    "Nome": "Atom Montaggi Società Cooperativa - Sede Legale (Operativa)",
+    "Indirizzo": "Via Svizzera, 11, Padova",
+    "LatLng": [45.396301, 11.956111]  
+  },
+  {
+    "Nome": "Edil.Ro s.r.l. - Sede Legale ",
+    "Indirizzo": "Via Piave, 34, Saonara",
+    "LatLng": [45.393932, 11.981122]  
+  },
+  {
+    "Nome": "Atlas Trasporti s.r.l. - Sede Legale (Operativa)",
+    "Indirizzo": "Via Emilia Romagna, 18, Saonara",
+    "LatLng": [45.377975, 11.96105]  
+  }
+]
