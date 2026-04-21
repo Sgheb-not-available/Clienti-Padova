@@ -4,6 +4,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+const toggleBtn = document.getElementById('toggle-list');
+const lista = document.getElementById('lista');
+
+toggleBtn.addEventListener('click', () => {
+  lista.classList.toggle('open');
+});
+
 fetch('clienti_padova.json')
     .then(response => {
         if (!response.ok) {
@@ -44,3 +51,4 @@ fetch('clienti_padova.json')
       console.error('Errore nel caricamento dei dati JSON:', err);
       alert('Errore nel caricamento dei dati. Controlla che il file clienti_padova.json sia nella stessa cartella e che il server funzioni.');
     });
+    
